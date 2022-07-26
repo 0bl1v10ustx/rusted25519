@@ -1,0 +1,17 @@
+[package]
+name = "rusted52519"
+version = "0.1.0"
+edition = "2021"
+author = "0bl1v10ustx"
+description = "Protyping library for ed25519 ec operations"
+license = "MIT"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.0"
+hex = "0.4.3"
+rand = "0.8.5"
+blake2 = "0.10.4"
+rand_core = "0.6.3"
