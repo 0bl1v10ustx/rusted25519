@@ -1,8 +1,7 @@
 [package]
 name = "rusted25519"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-author = "0bl1v10ustx"
 description = "Protyping library for ed25519 ec operations"
 homepage = "https://github.com/0bl1v10ustx/rusted25519"
 repository = "https://github.com/0bl1v10ustx/rusted25519.git"

@@ -69,8 +69,8 @@ impl Curve {
 /// 
 /// `Scalar::new(BigInt::from(1_u8))`
 pub struct Scalar {
-    value: BigInt,
-    hex_value: String,
+    pub value: BigInt,
+    pub hex_value: String,
 }
 
 // Scalar Operator Overloads
@@ -175,9 +175,9 @@ impl Scalar {
 /// 
 /// `Point::new("hexstring")`
 pub struct Point {
-    x: BigInt,
-    y: BigInt,
-    hex_value: String,
+    pub x: BigInt,
+    pub y: BigInt,
+    pub hex_value: String,
 }
 
 // Point Operator Overloads
@@ -361,8 +361,8 @@ impl Point {
 }
 
 #[derive(Debug)]
-struct ScalarVector {
-    value: Vec<Scalar>,   
+pub struct ScalarVector {
+    pub value: Vec<Scalar>,   
 }
 
 // ScalarVector Operator Overloads
@@ -454,8 +454,8 @@ impl ScalarVector {
 }
 
 #[derive(Debug)]
-struct PointVector {
-    value: Vec<Point>,   
+pub struct PointVector {
+    pub value: Vec<Point>,   
 }
 
 // PointVector operator overloads
